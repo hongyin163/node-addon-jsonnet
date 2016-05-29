@@ -1,4 +1,4 @@
-# express-jsonnet
+# node-addon-jsonnet
 This lib is a jsonnet addon for node,build from jsonnet source code, is not a javascript version of jsonnet such as node-jsonnet project.
 
 Jsonnet is a domain specific configuration language that helps you define JSON data. Jsonnet lets you compute fragments of JSON within the structure, bringing the same benefit to structured data that templating languages bring to plain text,[Jsonnet](http://jsonnet.org/index.html)
