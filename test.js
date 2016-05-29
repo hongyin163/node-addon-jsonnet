@@ -10,3 +10,14 @@ Jsonnet.evalFile('./data.json',function (err,data) {
 	console.log(err);
 	console.log(data);
 });
+
+
+Jsonnet.transform(json,function (err,data) {
+	console.log(err);
+	console.log(data);
+});
+
+Jsonnet.transformFile('./data.json',function (err,data) {
+	console.log(err);
+	console.log(data);
+});

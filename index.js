@@ -3,10 +3,10 @@ var jsonlib = require('./build/Release/jsonnet');
 function jsonnet(){
 
 }
-jsonnet.prototype.transfom=function (code,callback) {
+jsonnet.prototype.transform=function (code,callback) {
     jsonlib.evaluate_snippet(code,callback);
 }
-jsonnet.prototype.transfomFile=function (code,callback) {
+jsonnet.prototype.transformFile=function (code,callback) {
     jsonlib.evaluate_file(code,callback);
 }
 
