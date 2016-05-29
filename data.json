@@ -1,0 +1,3 @@
+local a1={"name":"lhy","age":20};
+local a2={"name":"kak","age":22,"gender":"man"};
+a1+a2
