@@ -1,6 +1,7 @@
 # express-jsonnet
 This lib is a jsonnet addon for node,build from jsonnet source code, is not a javascript version of jsonnet such as node-jsonnet project.
 
+Jsonnet is a domain specific configuration language that helps you define JSON data. Jsonnet lets you compute fragments of JSON within the structure, bringing the same benefit to structured data that templating languages bring to plain text,[Jsonnet](http://jsonnet.org/index.html)
 ```js
 var jsonnet = require('node-addon-jsonnet');
 
@@ -16,14 +17,15 @@ jsonnet.evalFile('./data.json',function(err,data){
 ## Installation
 
 ```bash
-$ npm install express-jsonnet
+$ npm install node-addon-jsonnet --save
 ```
 
 ## Features
 
-  * use jsonnet to aggregated data
-  * provide json api by configuration
-  * provide file,http,mongodb .etc data source
+- build from c++ code
+- have good performance than javscript version
+
+
 
 ## License
 
