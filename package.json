@@ -1,6 +1,6 @@
 {
   "name": "node-addon-jsonnet",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "This lib is a jsonnet addon for node,build from jsonnet source code, is not a javascript version of jsonnet such as node-jsonnet project.",
   "main": "index.js",
   "scripts": {
