@@ -19,6 +19,18 @@
           'cflags_cc': ['-fexceptions']
         }
       ]
-    }]
+    }],[
+      'OS=="win"', {
+        "targets": [
+          {
+            "target_name": "jsonnet",
+            "sources": [
+              "jsonnet.cpp"
+            ]
+          }
+        ]
+    }
+      
+    ]
   ]
 }
