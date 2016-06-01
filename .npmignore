@@ -1,5 +1,4 @@
 build
-binding.gyp
 core
 win
 node_modules
