@@ -1,6 +1,6 @@
 {
   "name": "node-addon-jsonnet",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "This lib is a jsonnet addon for node,build from jsonnet source code, is not a javascript version of jsonnet such as node-jsonnet project.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,5 @@
     "install": "node-gyp rebuild"
   },
   "author": "",
-  "license": "MIT",
-  "gypfile": true
+  "license": "MIT"
 }
