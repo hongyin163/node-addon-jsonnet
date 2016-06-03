@@ -1,3 +1,1 @@
-local a1={"name":"lhy","age":20};
-local a2={"name":"kak","age":22,"gender":"man"};
-a1+a2
+local a1={"name":"测试哈哈","age":20};local a2={"name":"中华人民共和国","age":22,"gender":"man"};a1+a2
